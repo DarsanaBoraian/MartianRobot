@@ -58,7 +58,7 @@ As we run through the instruction starting from the initial position of the Robo
                 2. Forward
                                 a. Identify the new Position.
                                 b. Check if there is any scent left on x / y axis for the respective position. If so, retain the current position
-                                c. Else when there is no scent available and if the boundry is breached (upper or lower limit), add a scent (to Set) for the position and the respective axis
+                                c. Else when there is no scent available and if the boundry is breached (upper or lower limit), add a scent (to Set) for the position and the respective axis, throw Fallen off with the current position.
                                 d. Return the new Position
  
 The Input
